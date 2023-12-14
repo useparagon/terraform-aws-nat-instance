@@ -1,6 +1,8 @@
 #!/bin/bash
 set -x
 
+echo -e "\n\nconfiguring network from $(realpath $0)\n"
+
 # wait for eth1
 while ! ip link show dev eth1; do
   sleep 1
