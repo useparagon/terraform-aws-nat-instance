@@ -1,5 +1,7 @@
 # terraform-aws-nat-instance [![CircleCI](https://circleci.com/gh/int128/terraform-aws-nat-instance.svg?style=shield)](https://circleci.com/gh/int128/terraform-aws-nat-instance)
 
+## NOTE: This was forked to address repeated NAT outages caused by [this issue](https://github.com/int128/terraform-aws-nat-instance/issues/57). Source repo appears to be abandoned.
+
 This is a Terraform module which provisions a NAT instance.
 
 Features:
